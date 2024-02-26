@@ -10,7 +10,7 @@ Python is one of the most popular, flexible programming languages today. You can
 ## Python for Everybody curriculum
 0/56, 0 of 56 challenges completed
 Not Passed
-### Introduction: Why Program?
+### 01 Introduction: Why Program?
 [Course source link: lessons, resources, etc - PY4E.com](https://www.py4e.com/)
 Course is maintained by instructor Charles R. Severance and based on eponymous book *Python for Everybody: Exploring Data in Python 3*.
 
@@ -42,28 +42,43 @@ or
 
     firstprog.py
 
-### Introduction: Hardware Architecture
+### 02 Introduction: Hardware Architecture
 * CPU = microprocessor (MPU) = brains, fast, seeking instructions
 * Memory stick (RAM) = very fast memory, lost when power 0
 	*Software runs on CPU + RAM
 	* CPU runs hot because so fast.
 	* Microprocessors are essentially same architecture as CPU, but all the capacitors, resistors, transistors are micro-rendered 3D using photographic printing technology.
 
-### Introduction: Python as a Language
+### 03 Introduction: Python as a Language
 
-Introduction: Elements of Python
+### 04 Introduction: Elements of Python
+
+### 05 Variables, Expressions, and Statements
+Python is case-sensitive. Name your variables accordingly. Avoid case as a differentiator. Prefer to use underscores  instead of camelCase - pretty common.
+
+Name well for remembering what a variable is for, rather than name length. However, don't mistakenly apply more intelligence to the system because of meaningful (to you) variable names.
+
+### 06 Intermediate Expressions
+* Integer division always produces a decimal result (Python 3).
+* Power is ** so 2***3 = 8
+* Remainder (mod) % so 10 % 3 = 1
+
+Python command formats:
+*type(x)* will tell you type
+*print(x)* will output
+*float(x)* turns x from an int to a float
+*input('Question?')* returns a string (the response)
+*# comments* 
+*handle = open(name, 'r')* opens a file (in read mode?)
+
+07 Conditional Execution
+* No tabs (to avoid indentation errors). Use spaces only. Make sure your text editor options are set for this re: Python files.
+
+08 More Conditional Structures
 Not Passed
-Variables, Expressions, and Statements
+09 Python Functions
 Not Passed
-Intermediate Expressions
-Not Passed
-Conditional Execution
-Not Passed
-More Conditional Structures
-Not Passed
-Python Functions
-Not Passed
-Build your own Functions
+10 Build your own Functions
 Not Passed
 Loops and Iterations
 Not Passed
