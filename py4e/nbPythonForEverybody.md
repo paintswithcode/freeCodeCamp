@@ -27,11 +27,11 @@ Course is maintained by instructor Charles R. Severance and based on eponymous b
 	- Other cloud-provided Python environments include [Trinket](http://trinket.io/), [Cloud9](http://c9.io/), or [CodeAnywhere](http://codeanywhere.com/).
 * Both cloud options utilize Linux Shell, so get comfortable with Bash commands
 * [According to Geeks4Geeks, the best Python IDE](https://www.geeksforgeeks.org/top-10-python-ide-and-code-editors-in-2020/)s are:
-	1. [PyCharm](https://www.jetbrains.com/pycharm/) -- $99/yr.
-	2. [Spyder](https://www.spyder-ide.org/) -- mainly used by data scientists who can integrate with [Matplotlib](https://www.geeksforgeeks.org/matplotlib-tutorial/), SciPy, [NumPy](https://www.geeksforgeeks.org/python-numpy/), [Pandas](https://www.geeksforgeeks.org/pandas-tutorial/), Cython, IPython, SymPy, et al.
-	3. [Eclipse PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) -- written in Java but you can install the Pydev plugin in eclipse and use it for Python as well.
-	4. [IDLE](https://docs.python.org/3/library/idle.html) 
-	5. [Wing](https://wingware.com/)
+	1. [PyCharm](https://www.jetbrains.com/pycharm/) -- **(POP)** $99/yr.
+	2. [Spyder](https://www.spyder-ide.org/) -- **(FAV)** a free and open source scientific environment (coding IDE + visualization capabilities) mainly used by data scientists who can integrate with [Matplotlib](https://www.geeksforgeeks.org/matplotlib-tutorial/), SciPy, [NumPy](https://www.geeksforgeeks.org/python-numpy/), [Pandas](https://www.geeksforgeeks.org/pandas-tutorial/), Cython, IPython, SymPy, et al. Install via Anaconda Navigator distribution system. Tour Spyder on [Binder](https://mybinder.org/v2/gh/spyder-ide/binder-environments/spyder-stable?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fspyder-ide%252FSpyder-Workshop%26urlpath%3Ddesktop%252F%26branch%3Dmaster).
+	3. [PyDev](https://marketplace.eclipse.org/content/pydev-python-ide-eclipse) -- Eclipse plug-in written in Java, but you can use it for Python as well. Assumes that you have already have **Python and/or Jython and/or IronPython** installed in your machine, as well as **Eclipse** (an open source IDE).
+	4. [IDLE](https://docs.python.org/3/library/idle.html) -- free(?)
+	5. [Wing](https://wingware.com/) -- **(FAV)** freemium; $245 perpetual license
 
 #### Running a program from the <abbr title="command line interface">CLI</abbr>
 Type "python" in Win CLI to open python CLI. To run a program:
@@ -71,11 +71,16 @@ Python command formats:
 *# comments* 
 *handle = open(name, 'r')* opens a file (in read mode?)
 
-07 Conditional Execution
+### 07 Conditional Execution
 * No tabs (to avoid indentation errors). Use spaces only. Make sure your text editor options are set for this re: Python files.
+	* Indent convention: use 4 spaces
+	* Editor: Settings > Prefs > Language Menu/Tabs
+* Format <code><br/>if p: <br/>&nbsp;&nbsp;q</code>
+* Indentation controls where you are in if statement, thus:  <code><br/>if p: <br/>&nbsp;&nbsp;q1<br/>&nbsp;&nbsp;q2<br/>&nbsp;&nbsp;q3</code>
 
-08 More Conditional Structures
-Not Passed
+
+### 08 More Conditional Structures
+
 09 Python Functions
 Not Passed
 10 Build your own Functions
