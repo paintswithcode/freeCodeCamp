@@ -75,11 +75,42 @@ Python command formats:
 * No tabs (to avoid indentation errors). Use spaces only. Make sure your text editor options are set for this re: Python files.
 	* Indent convention: use 4 spaces
 	* Editor: Settings > Prefs > Language Menu/Tabs
-* Format <code><br/>if p: <br/>&nbsp;&nbsp;q</code>
-* Indentation controls where you are in if statement, thus:  <code><br/>if p: <br/>&nbsp;&nbsp;q1<br/>&nbsp;&nbsp;q2<br/>&nbsp;&nbsp;q3</code>
+* If-then structure format <code><br/>if p: <br/>&nbsp;&nbsp;q</code>
+* Indentation controls where you are in if statement, thus:  <code><br/>if p: <br/>&nbsp;&nbsp;q1<br/>&nbsp;&nbsp;q2<br/>&nbsp;&nbsp;q3<br/>else: <br/>&nbsp;&nbsp;e1</code>
 
 
 ### 08 More Conditional Structures
+* elif is "else if" -- 
+<code>
+if p: q
+elif p2: q2<br/>else p3 : q3
+</code>
+
+* Try/except structure -- 
+<code>
+try
+&nbsp;&nbsp;varint = int(varnonint)
+&nbsp;&nbsp;#can try multiple things
+except
+&nbsp;&nbsp;varint = catchint
+&nbsp;&nbsp;quit() #exit clause for this script
+</code>
+
+For example:
+<code>
+rawstr = input('Enter a number: ')
+try
+&nbsp;&nbsp;ival= int(rawstr)
+except
+&nbsp;&nbsp;ival= -1
+if ival > 0 :
+&nbsp;&nbsp;print('Nice number!')
+else
+&nbsp;&nbsp;print('Not a number: ', rawstr)
+</code>
+
+* "Traceback (most recent call last): " is the runtime error log response.
+* Print(var1, var2) will output "var1 var2" with the space between them.
 
 09 Python Functions
 Not Passed
