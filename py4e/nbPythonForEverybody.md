@@ -112,13 +112,42 @@ else
 * "Traceback (most recent call last): " is the runtime error log response.
 * Print(var1, var2) will output "var1 var2" with the space between them.
 
-09 Python Functions
-Not Passed
-10 Build your own Functions
-Not Passed
-Loops and Iterations
-Not Passed
-Iterations: Definite Loops
+### 09 Python Functions
+Functions for storage and reuse -- 
+#### Define and invoke:
+<code>def thing() :
+&nbsp;&nbsp;print('a')
+&nbsp;&nbsp;print('b')
+thing() # will print a and b
+</code>
+
+ - Def defines a function, and stores whatever is indented next as the function statement
+
+- Call (invoke) the function using 
+	- method call -- funk() 
+	- or return value -- return(funk)
+		- Return is the end of the function, specifying output
+- Parameters funk(param)
+
+#### Built-in functions
+
+ - max('word') will return max alpha char, so "w"
+
+
+### Build your own Functions
+
+### Loops and Iterations
+Passed
+Syntax:
+```python
+n = 0
+while True:
+    if n == 3:
+        break
+    print(n)
+    n = n + 1
+```
+### Iterations: Definite Loops
 Not Passed
 Iterations: Loop Idioms
 Not Passed
